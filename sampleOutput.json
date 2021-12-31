@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+    {
+    "source": {
+    "id": "bbc-sport",
+    "name": "BBC Sport"
+    },
+    "author": "BBC Sport",
+    "title": "'I didn't even have a passport' - South Africa's pioneering black cricketers",
+    "description": "How two little-known black cricketers helped South Africa back into international cricket post-Apartheid.",
+    "url": "http://www.bbc.co.uk/sport/cricket/59223969",
+    "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/1003F/production/_121499556_cricketpicture.jpg",
+    "publishedAt": "2021-11-12T07:37:28.7947918Z",
+    "content": "India captain Mohammad Azharuddin and South Africa skipper Clive Rice shake hands before the first match between the two nations on the historic 1991 tour\r\nThe names of successful black South African… [+5208 chars]"
+    },
+    {
+    "source": {
+    "id": "news24",
+    "name": "News24"
+    },
+    "author": "Compiled by Herman Mostert",
+    "title": "Proteas to tour New Zealand for Test series against ICC World Test Champions",
+    "description": "South Africa will travel to New Zealand for a two-Test series next year, Cricket South Africa has confirmed.",
+    "url": "https://www.news24.com/sport/cricket/proteas/proteas-to-tour-new-zealand-for-test-series-against-icc-world-test-champions-20211112",
+    "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/11282/b10a9cf4bbb14ce8a65fb3ebd1643ba3.jpg",
+    "publishedAt": "2021-11-12T07:26:14+00:00",
+    "content": "South Africa will travel to New Zealand for a two-Test series next year, Cricket South Africa (CSA) confirmed on Friday.\r\nThe Tests, which will form part of the new cycle of the ICC World Test Champi… [+1451 chars]"
+    },
+    {
+    "source": {
+    "id": "espn-cric-info",
+    "name": "ESPN Cric Info"
+    },
+    "author": null,
+    "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+    "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+    "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+    "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+    "publishedAt": "2020-04-27T11:41:47Z",
+    "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+    "source": {
+    "id": "espn-cric-info",
+    "name": "ESPN Cric Info"
+    },
+    "author": null,
+    "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+    "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+    "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+    "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+    "publishedAt": "2020-03-30T15:26:05Z",
+    "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+    ]
+    }
