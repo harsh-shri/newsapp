@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 export class News extends Component {
   //   api = {
-  //     apiKey: "679831ceab844c6292b75dff68ee72fb",
+  //     apiKey: "",
   //   };
   static defaultProps = {
     country: 'in',
@@ -27,7 +27,19 @@ export class News extends Component {
       page: 1, // current state
     };
   }
-
+   async updateNews () {  
+    const url =
+      `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=679831ceab844c6292b75dff68ee72fb&pagesize=${this.props.pageSize}`;
+    this.setState({loading: true});
+    let data = await fetch(url);
+    let parsedData = await data.json();
+    console.log(parsedData);
+    this.setState({
+      articles: parsedData.articles,
+      totalResults: parsedData.totalResults,
+      loading: false,
+    });
+  }
   async componentDidMount() {
     let url =
       `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=679831ceab844c6292b75dff68ee72fb&pagesize=${this.props.pageSize}`;
@@ -78,7 +90,7 @@ export class News extends Component {
 
   render() {
     return (
-      <div className="container mt-3">
+      <div className="container my-3">
         <h1 className="text-center fw-bold">NewsJocky - Top-headlines</h1>
         {this.state.loading && <Spinner/>}
         <div className="row my-3">
