@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export class NewsItem extends Component {
     render() {
-        let {title, description, imageUrl, newsUrl, publishedAt, author, source} = this.props; // destructuring
+        let {title, description, imageUrl, newsUrl, publishedAt, author, source} = this.props; 
         return (
             <>
                 <div className="card mb-2 shadow" style={{width: "18rem", marginTop: "2rem"}}>
